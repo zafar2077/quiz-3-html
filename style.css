@@ -1,0 +1,15 @@
+.image {
+  width: 50px;
+  height: 50px;
+}
+
+.mainContainer {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .mainContainer {
+    width: 100%;
+  }
+}
